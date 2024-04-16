@@ -14,7 +14,7 @@ window.speechSynthesis.onvoiceschanged = () => {
 };
 
 voiceSelect.addEventListener("change", () => {
-  speechSynthesis.voice = voices[voiceSelect.value];
+  speach.voice = voices[voiceSelect.value];
 });
 
 document.querySelector("button").addEventListener("click", () => {
